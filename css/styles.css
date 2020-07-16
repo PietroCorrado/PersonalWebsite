@@ -93,15 +93,6 @@ hr {
   width: 200px;
 }
 
-.fixedPos {
-  position: fixed;
-  left: 5%;
-  right: 0;
-  width: 100%;
-  display: none;
-  top: 0;
-}
-
 .Pietro-img {
   width: 300px;
   height: 300px;

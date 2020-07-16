@@ -1,11 +1,10 @@
-$(window).scroll(function() {
-var scroll = $(window).scrollTop();
+$(document).scroll(function() {
+    checkOffset();
+});
 
-if (scroll >= 280) {
-    $(".rocket-img").addClass("fixedPos");
+function checkOffset() {
+    if($('.rocket-img').offset().top + 105 >= $('.background-collage').offset().top)
+        $('.rocket-img').css('display', 'none');
+    if($('.rocket-img').offset().top + 105 < $('.background-collage').offset().top)
+        $('.rocket-img').css('display', 'block');
 }
-else{
-
-    $(".rocket-img").removeClass("fixedPos");
-}
- });
