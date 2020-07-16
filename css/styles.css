@@ -1,0 +1,161 @@
+a {
+  color: #9145a3;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #9145a3;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #9145a3;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #9145a3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-color: #9145a3;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  margin: 100px auto;
+  width: 70px;
+}
+
+.background-collage {
+  position: relative;
+  padding: 65px 200px 400px;
+  margin: 0 auto 50px;
+}
+
+.bottom-container {
+  background-color: #FABFFF;
+  padding: 25px;
+  margin: 0;
+  position: relative;
+}
+
+.clouds-img {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.contact-me-button {
+   -moz-border-radius: 20px;
+   -webkit-border-radius: 20px;
+   background-color: #9145a3;
+   border-radius: 20px;
+   color: #FFFFFF;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 100;
+   margin: 50px auto 70px;
+   padding: 10px 20px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+}
+
+.contact-me-button:hover {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+   background: #9399FF;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.copyright {
+  color: #9145a3;
+}
+
+.customer-service-img {
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+  width: 200px;
+}
+
+.fixedPos {
+  position: fixed;
+  left: 5%;
+  right: 0;
+  width: 100%;
+  display: none;
+  top: 0;
+}
+
+.Pietro-img {
+  width: 300px;
+  height: 300px;
+}
+
+.signature-initial {
+  width:30px;
+  height: 30px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+}
+
+.sky-img {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.stars-img {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.rocket-img {
+  position: fixed;
+  left: 25%;
+  max-height: 24%;
+  max-width: 8%;
+  top: 45%;
+  z-index: 2;
+}
+
+.top-container {
+  background-color: #FABFFF;
+  padding-bottom: 1px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.web-development-img {
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+  width: 200px;
+}
